@@ -22,6 +22,6 @@ Compare_objectives_Dropout is used to output the RMSE, MPIW and PICP comparisons
 
 
 ## Requirements
-gpyopt - an open source library for bayesian optimization
-pyro - to do variational inference
-pycuda - to run pytorch with cuda on google colab 
+* gpyopt - an open source library for bayesian optimization
+* pyro - to do variational inference
+* pycuda - to run pytorch with cuda on google colab 
