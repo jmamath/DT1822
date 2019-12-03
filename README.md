@@ -1,6 +1,7 @@
 # DT1822
 ## Context
-This is a project I have worked on after attending probai https://probabilistic.ai/. I validated a PhD level course in probabilistic artificial intelligence. The project is available by looking at *dt8122_probabilistic_ai_2019.pdf*
+This is a project I have worked on after attending probai https://probabilistic.ai/. I validated a PhD level course (7.5 credits) from Norwegian University of Science and Technology (NTNU) in probabilistic artificial intelligence. The project is available by looking at *dt8122_probabilistic_ai_2019.pdf*.
+
 
 I had a month (12 June to 12 July) to implement two generative models on multiple datasets, and try to improve their performance. Check the report *report.pdf*
 
