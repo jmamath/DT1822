@@ -4,7 +4,7 @@ This is a project I have worked on after attending probai https://probabilistic.
 The transcript is available at *karakterutskrift.pdf*
 
 
-I had a month (12 June to 12 July) to implement two generative models on multiple datasets, and try to improve their performance. Check the report *report.pdf*
+I had a month (June 12th to July 12th) to implement two generative models on UCI datasets for regression tasks. Then a second implementation where asked, the goal being to improve the performance. Check the report *report.pdf*
 
 Every notebook can be run in google colab with Python 3.
 Make sure to enable the GPU to make the experiments faster.
@@ -15,10 +15,10 @@ In fact, the pyro native MixtureOfDiagNormals lack numerical stability, it often
 Thankfully a solution was proposed in the following thread: https://github.com/pyro-ppl/pyro/pull/1917. So we took this implementation instead of the native MixtureOfDiagNormals.
 
 Dropout_1 refers to the first implementation of Monte Carlo Dropout.
-Dropout_2 refers to the second implementation of Monte Carlo Dropout.
+Dropout_2 refers to the second implementation of Monte Carlo Dropout using Bayesian optimisation to find the hyperparameters/
 
 BbB_1 refers to the first implementation of Bayes by Backprop.
-BbB_2 refers to the second implementation of Bayes by Backprop.
+BbB_2 refers to the second implementation of Bayes by Backprop using Bayesian optimisation to find the hyperparameters.
 
 Compare_objectives_Dropout is used to output the RMSE, MPIW and PICP comparisons.
 
